@@ -2,8 +2,15 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: Update Ubuntu machines.
+  - name: Update.
     apt:
       upgrade: dist
       update_cache: yes
+    when: ansible_distribution == "Ubuntu"
+  - name: Install basic packages.
+    apt:
+      name:
+        - htop
+        - moc
+      state: latest
     when: ansible_distribution == "Ubuntu"
