@@ -6,11 +6,11 @@
     apt:
       upgrade: dist
       update_cache: yes
-    when: ansible_distribution == "Ubuntu"
+    when: ansible_distribution == "Linux Mint"
   - name: Install basic packages.
     apt:
       name:
         - htop
         - moc
       state: latest
-    when: ansible_distribution == "Ubuntu"
+    when: ansible_distribution == "Linux Mint"
