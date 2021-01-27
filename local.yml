@@ -12,7 +12,27 @@
     become: true
     apt:
       name:
-        - htop
-        - moc
+        - b43-fwcutter #Broadcom wireless drivers
+        - ca-certificates #List of CA certificates (for safer browsing)
+        - cdrdao #CD recording software
+        - chromium-browser # open-source web browser
+        - firmware-b43-installer #broadcom wireless drivers 
+        - gcj-jre #Java
+        - gimp #Image Editing Software
+        - hardinfo # system information
+        - htop # Processes, Memory Usage, etc
+        - inkscape #Vector Graphics Program
+        - krita #Vector graphics program
+        - language-pack-es #Spanish language support
+        - language-pack-gnome-es #Spanish language support
+        - linux-firmware-nonfree #TV capture card drivers.
+        - libreoffice # Office Suite
+        - libdvdcss2 #DVD Playback
+        - moc #Music On Console
+        - mplayer #Movie player
+        - non-free-codecs #more codecs
+        - totem-mozilla #media playback extension for Firefox.
+        - ubuntu-restricted-extras #codecs
+        - vlc #Multi-format media player
       state: latest
     when: ansible_distribution == "Linux Mint"
