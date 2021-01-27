@@ -3,6 +3,10 @@
 * Based on [Jay LaCroix](https://jaylacroix.com/)' Ansible tutorials.
 * Maybe it replaces the [FreeGeek Chicago](https://freegeekchicago.org/) [install script](https://github.com/freegeekchicago/fgc-installscript)? 
 ## Notes:
+You will need git and Ansible to run this script. Here's how to get them:
+
+    sudo apt-get install git ansible
+
 How to gather_facts on the target machine:
 
     ansible localhost -m setup
