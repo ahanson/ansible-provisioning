@@ -9,3 +9,4 @@ How to gather_facts on the target machine:
 
 How to run the script on the target machine;
 
+    sudo ansible-pull -U https://github.com/ahanson/ansible-provisioning.git
