@@ -28,7 +28,6 @@
         - libdvdcss2 #DVD Playback
         - moc #Music On Console
         - mplayer #Movie player
-        - totem-mozilla #media playback extension for Firefox.
         - ubuntu-restricted-extras #codecs
         - vlc #Multi-format media player
       state: latest
