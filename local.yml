@@ -3,11 +3,14 @@
   connection: local
   become: true
   tasks:
-  - name: Update and Upgrade.
+  - name: Update.
     apt:
-      upgrade: dist
       update_cache: yes
     when: ansible_distribution == "Linux Mint" or ansible_distribution == "Ubuntu"
+  - name: Upgrade.
+    apt:
+      upgrade: dist
+    when: ansible_distribution == "Linux Mint" or ansible_distribution == "Ubuntu"    
   - name: Install basic packages.
     become: true
     apt:
