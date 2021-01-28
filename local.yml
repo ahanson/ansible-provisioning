@@ -3,7 +3,7 @@
   connection: local
   become: true
   tasks:
-  - name: Update.
+  - name: Update and Upgrade.
     apt:
       upgrade: dist
       update_cache: yes
