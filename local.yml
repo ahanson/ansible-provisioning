@@ -30,6 +30,7 @@
         - libdvdcss2 #DVD Playback
         - moc #Music On Console
         - mplayer #Movie player
+        - sl #Steam Locomotive!
         - ubuntu-restricted-extras #codecs
         - vlc #Multi-format media player
       state: latest
