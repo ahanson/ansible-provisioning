@@ -6,12 +6,17 @@
 ## Questions:
 * How many different versions of Linux Mint should I test this on?
 * Should I test it on older versions of (x/k)Ubuntu? Older stuff sometimes comes in the door at Freegeek for support.
+* Do we need the pepperflash player anymore, now that Flash has been retired?
 
 ## Done:
 * Updating, upgrading, removing useless packages, emptying the package cache.
 * Installing a short list of basic packages. 
 
 ## To Do:
+* If it's Xubuntu, install xubuntu-restricted-extras, remove abiword and gnumeric.
+* check if there's a webcam and install cheese.
+* check if it's an Apple machine and act accordingly.
+* Show the old-school steam locomotive ascii animation after everything is done.
 
 ## Notes:
 You will need [Git](https://git-scm.com/) and [Ansible](https://www.ansible.com/) to run this script. Here's how to get them:
