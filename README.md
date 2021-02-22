@@ -11,10 +11,10 @@
 ## Done:
 * Updating, upgrading, removing useless packages, emptying the package cache.
 * Installing a short list of basic packages. 
+* check if there's a webcam and install cheese.
 
 ## To Do:
 * If it's Xubuntu, install xubuntu-restricted-extras, remove abiword and gnumeric.
-* check if there's a webcam and install cheese.
 * check if it's an Apple machine and act accordingly.
 * Show the old-school steam locomotive ascii animation after everything is done.
 
