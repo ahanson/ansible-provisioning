@@ -50,3 +50,5 @@
       name: cheese
       state: latest
     when: has_webcam.stat.exists
+  - name: run the steam locomotive when everything has finished.
+      ansible.builtin.shell: /usr/games/sl
