@@ -40,3 +40,12 @@
   - name: Remove dependencies that are no longer required
     apt:
      autoremove: yes
+  - name: Check if there is a webcam
+    stat:
+      path: /dev/video0
+    register: has_webcam
+  - name: If there is a webcam, install cheese
+    apt:
+      name: cheese
+      state: latest
+    when: has_webcam.stat.exists
