@@ -2,6 +2,17 @@
 * An Ansible Pull playbook for setting up Linux Mint Desktops.
 * Based on [Jay LaCroix](https://jaylacroix.com/)' series of [Ansible tutorials](https://www.youtube.com/playlist?list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70).
 * Maybe it replaces the [FreeGeek Chicago](https://freegeekchicago.org/) [install script](https://github.com/freegeekchicago/fgc-installscript)? 
+
+## Questions:
+* How many different versions of Linux Mint should I test this on?
+* Should I test it on older versions of (x/k)Ubuntu? Older stuff sometimes comes in the door at Freegeek for support.
+
+## Done:
+* Updating, upgrading, removing useless packages, emptying the package cache.
+* Installing a short list of basic packages. 
+
+## To Do:
+
 ## Notes:
 You will need [Git](https://git-scm.com/) and [Ansible](https://www.ansible.com/) to run this script. Here's how to get them:
 
