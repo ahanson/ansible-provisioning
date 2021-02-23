@@ -43,7 +43,7 @@
       name:
         - indicator-application
       state: absent
-    when:  ansible_distribution == "Linux Mint"
+      when:  ansible_distribution == "Linux Mint"
   - name: Remove useless packages from the cache
     apt:
      autoclean: yes
