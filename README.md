@@ -5,7 +5,8 @@
 
 ## Questions:
 * How many different versions of Linux Mint should I test this on? 
-    * Right now, I'm testing this on Linux Mint 19.3 XFCE.
+    * Linux Mint 19.3 XFCE.
+    * Linux Mint 20.01 XFCE.
 * Should I test it on older versions of (x/k)Ubuntu? Older stuff sometimes comes in the door at Freegeek for support.
 * Do we need the pepperflash player anymore, now that Flash has been retired?
 
