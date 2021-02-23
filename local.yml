@@ -57,5 +57,7 @@
       name: cheese
       state: latest
     when: has_webcam.stat.exists
+  - name: make an initial image with timeshift
+    shell: timeshift --create --comments "First backup" --tags D
   - name: run the steam locomotive when everything has finished.
     shell: /usr/games/sl
