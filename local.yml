@@ -21,6 +21,7 @@
         - chromium-browser # open-source web browser
         - firmware-b43-installer #broadcom wireless drivers 
         - gimp #Image Editing Software
+        - gimp-help-en
         - hardinfo # system information
         - htop # Processes, Memory Usage, etc
         - inkscape #Vector Graphics Program
@@ -30,6 +31,7 @@
         - libdvdcss2 #DVD Playback
         - moc #Music On Console
         - mplayer #Movie player
+        - openoffice.org-hyphenation
         - sl #Steam Locomotive!
         - ubuntu-restricted-extras #codecs
         - vlc #Multi-format media player
