@@ -19,6 +19,7 @@
 * If it's Xubuntu, install xubuntu-restricted-extras, remove abiword and gnumeric.
 * check if it's an Apple machine and act accordingly.
 * Show the old-school steam locomotive ascii animation after everything is done.
+* Make a initial Timeshift snapshot. Don't make another snapshot if there is already one snapshot.
 
 ## Notes:
 You will need [Git](https://git-scm.com/) and [Ansible](https://www.ansible.com/) to run this script. Here's how to get them:
