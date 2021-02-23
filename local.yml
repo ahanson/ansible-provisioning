@@ -37,6 +37,12 @@
         - vlc #Multi-format media player
       state: latest
     when: ansible_distribution == "Linux Mint"
+  - name: remove the indicator-application from Linux Mint
+    become: true
+    apt:
+     - indicator-application
+    state: absent
+    when:  ansible_distribution == "Linux Mint"
   - name: Remove useless packages from the cache
     apt:
      autoclean: yes
