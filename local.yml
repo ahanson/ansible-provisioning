@@ -57,7 +57,13 @@
       name: cheese
       state: latest
     when: has_webcam.stat.exists
-  - name: make an initial image with timeshift
+  - name: check if there are any snapshots in the timeshift directory
+    find: 
+     paths: /timeshift/snapshots/
+     patterns: '*.*'
+    register: found_files
+  - name: make an initial image with timeshift if there isn't one there already.
     shell: timeshift --create --comments "First backup" --tags D
+    when:  ansible_distribution == "Linux Mint" and found_files.matched <= 0
   - name: run the steam locomotive when everything has finished.
     shell: /usr/games/sl
