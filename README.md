@@ -20,6 +20,7 @@
 * If it's Xubuntu, install xubuntu-restricted-extras, remove abiword and gnumeric.
 * check if it's an Apple machine and act accordingly.
 * Show the old-school steam locomotive ascii animation after everything is done.
+* Change the wallpaper to a FreeGeek Chicago wallpaper.
 
 
 ## Notes:
