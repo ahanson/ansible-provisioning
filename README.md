@@ -21,7 +21,7 @@
 * check if it's an Apple machine and act accordingly.
 * Show the old-school steam locomotive ascii animation after everything is done.
 * Change the wallpaper to a FreeGeek Chicago wallpaper.
-
+* If logged into oem, make changes to /etc/skell and /etc/profile so that when the user makes an account for themselves, changes by the install script aren't removed.
 
 ## Notes:
 You will need [Git](https://git-scm.com/) and [Ansible](https://www.ansible.com/) to run this script. Here's how to get them:
